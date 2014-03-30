@@ -7,6 +7,6 @@
 apt-get update
 apt-get install nload htop tmux curl lftp
 apt-get install build-essential
-apt-get intall python python-dev
+apt-get install python python-dev
 /bin/env/python ~/bin/get-pip.py
 pip install virtualenv virtualenvwrapper
