@@ -105,4 +105,4 @@ alias top='htop'
 source /usr/local/bin/virtualenvwrapper.sh
 
 # 缺省进入 tmux，没有 session 创建，有 session 恢复
-test -z "$TMUX" && (tmux attach || tmux new-session)
+test -z "$TMUX" && (tmux -f ~/.tmux.conf attach || tmux -f ~/.tmux.conf new-session)
